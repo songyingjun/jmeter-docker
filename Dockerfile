@@ -13,7 +13,7 @@ RUN apt-get clean && \
                 telnet \
                 iputils-ping \
                 unzip \
-                ifconfig \
+                net-tools \
                 procps
 
 # Install JMeter
