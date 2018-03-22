@@ -1,9 +1,9 @@
-# Use Java 8 slim JRE
-FROM openjdk:8-jre-slim
+# Use Java 9 slim JRE
+FROM openjdk:9-jre-slim
 MAINTAINER joyesong@qq.com
 
 # JMeter version
-ARG JMETER_VERSION=3.2
+ARG JMETER_VERSION=4.0
 
 # Install few utilities
 RUN apt-get clean && \
