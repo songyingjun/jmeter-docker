@@ -3,7 +3,7 @@ FROM openjdk:8-jre-slim
 MAINTAINER joyesong@qq.com
 
 # JMeter version
-ARG JMETER_VERSION=4.0
+ARG JMETER_VERSION=3.3
 
 # Install few utilities
 RUN apt-get clean && \
