@@ -1,5 +1,5 @@
-# Use Java 9 slim JRE
-FROM openjdk:9-jre-slim
+# Use Java 8 slim JRE
+FROM openjdk:8-jre-slim
 MAINTAINER joyesong@qq.com
 
 # JMeter version
