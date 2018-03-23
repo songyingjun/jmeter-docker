@@ -14,7 +14,8 @@ RUN apt-get clean && \
                 iputils-ping \
                 unzip \
                 net-tools \
-                procps
+                procps \
+				openssh-client
 
 # Install JMeter
 RUN   mkdir /jmeter \
